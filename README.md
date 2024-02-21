@@ -9,6 +9,10 @@ docker-compose exec fastapi-docker poetry run alembic upgrade head
 
 CRUDs remains the same: https://github.com/Ruslan-Aliyev/job_test_python_fastapi?tab=readme-ov-file#usage
 
+Access PGAdmin: localhost:5000
+
+![Screenshot 2024-02-21 181240](https://github.com/Ruslan-Aliyev/job_test_python_fastapi_dockerized/assets/6761422/cf64c046-f6d4-43b7-93a8-0a25db446d6d)
+
 # Tutorials
 
 - PIP
