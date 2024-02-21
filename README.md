@@ -3,9 +3,11 @@ This is a dockerized version of https://github.com/Ruslan-Aliyev/job_test_python
 # Usage
 
 ```
-docker-composer build
-docker-composer up
+docker-compose up -d --build
+docker-compose exec fastapi-docker poetry run alembic upgrade head
 ```
+
+CRUDs remains the same: https://github.com/Ruslan-Aliyev/job_test_python_fastapi?tab=readme-ov-file#usage
 
 # Tutorials
 
